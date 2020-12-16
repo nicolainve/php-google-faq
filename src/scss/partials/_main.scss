@@ -1,0 +1,17 @@
+.main-content {
+    max-width: 978px;
+    margin: 0 auto;
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        margin: 100px 0 20px 0;
+        color: $color-primary;
+    }
+    p {
+        color: $black;
+        line-height: 24px;
+        font-size: 14px;
+        margin: 0 0 30px 0;
+        letter-spacing: .2px;
+    }
+}
