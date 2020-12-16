@@ -1,6 +1,8 @@
 .main-header {
+    padding: 0 20px;
+    border-bottom: .5px solid rgba($black, .2);
     .navbar-top {
-        padding: 10px 20px;
+        padding: 10px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -14,6 +16,22 @@
             }
             img {
                 margin-right: 5px;
+            }
+        }
+    }
+    .navbar-bottom {
+        ul {
+            display: flex;
+            color: $color-secondary;
+            li {
+                margin-right: 40px;
+                a {
+                    color: $color-secondary;
+                    padding: 10px 0;
+                }
+            }
+            li.active a {
+                color: $color-action;
             }
         }
     }

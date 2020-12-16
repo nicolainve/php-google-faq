@@ -59,21 +59,39 @@
             </div>
         </nav>
         <nav class="navbar-bottom">
-
+            <ul>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="#">Technologies</a>
+                </li>
+                <li class="active">
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
-    <!-- <?php foreach ($faq as $question => $answer) { ?>
-        
-        <h2><?php echo $question ?></h2>
+    <main class="main-content">
+        <?php foreach ($faq as $question => $answer) { ?>
+            
+            <h2><?php echo $question ?></h2>
 
-        <?php foreach ($answer as $paragraph) { ?>
+            <?php foreach ($answer as $paragraph) { ?>
 
-            <p><?php echo $paragraph ?></p>
+                <p><?php echo $paragraph ?></p>
 
+            <?php } ?>
+            
         <?php } ?>
-        
-    <?php } ?> -->
+    </main>
     
 </body>
 </html>

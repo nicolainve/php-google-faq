@@ -8,14 +8,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 $white: #fff;
 $black: #000;
 
 $color-primary: rgba($black, .7);
 $color-secondary: #5f6368;
+$color-action: #2b7de9;
 
 .btn-primary {
-    background: #2b7de9;
+    background: $color-action;
     color: $white;
     padding: 0 30px;
     height: 35px;

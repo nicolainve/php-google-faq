@@ -8,6 +8,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .btn-primary {
   background: #2b7de9;
   color: #fff;
@@ -21,8 +30,13 @@ body {
   box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3), 0 1px 3px 1px rgba(66, 133, 244, 0.15);
 }
 
+.main-header {
+  padding: 0 20px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
 .main-header .navbar-top {
-  padding: 10px 20px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,5 +55,23 @@ body {
 
 .main-header .navbar-top .google-title img {
   margin-right: 5px;
+}
+
+.main-header .navbar-bottom ul {
+  display: flex;
+  color: #5f6368;
+}
+
+.main-header .navbar-bottom ul li {
+  margin-right: 40px;
+}
+
+.main-header .navbar-bottom ul li a {
+  color: #5f6368;
+  padding: 10px 0;
+}
+
+.main-header .navbar-bottom ul li.active a {
+  color: #2b7de9;
 }
 
