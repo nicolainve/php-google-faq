@@ -1,3 +1,10 @@
+$white: #fff;
+$black: #000;
+
+$color-primary: rgba($black, .7);
+$color-secondary: #5f6368;
+$color-action: #2b7de9;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +24,11 @@ ul {
     list-style: none;
 }
 
-$white: #fff;
-$black: #000;
 
-$color-primary: rgba($black, .7);
-$color-secondary: #5f6368;
-$color-action: #2b7de9;
+.container {
+    max-width: 978px;
+    margin: 0 auto;
+}
 
 .btn-primary {
     background: $color-action;

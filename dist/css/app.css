@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  max-width: 978px;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -75,11 +82,6 @@ ul {
   color: #2b7de9;
 }
 
-.main-content {
-  max-width: 978px;
-  margin: 0 auto;
-}
-
 .main-content h2 {
   font-weight: 500;
   font-size: 24px;
@@ -93,5 +95,28 @@ ul {
   font-size: 14px;
   margin: 0 0 30px 0;
   letter-spacing: 0.2px;
+}
+
+.main-footer {
+  background: #f5f5f5;
+}
+
+.main-footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer .footer-nav .footer-link {
+  display: flex;
+}
+
+.main-footer .footer-nav .footer-link li a {
+  color: #5f6368;
+}
+
+.main-footer .footer-nav .footer-link li:not(:first-child)::before {
+  content: "\B7";
+  padding: 0 5px;
+  color: #5f6368;
 }
 

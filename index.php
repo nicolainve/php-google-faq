@@ -79,7 +79,7 @@
         </nav>
     </header>
 
-    <main class="main-content">
+    <main class="main-content container">
         <?php foreach ($faq as $question => $answer) { ?>
             
             <h2><?php echo $question ?></h2>
@@ -92,6 +92,30 @@
             
         <?php } ?>
     </main>
+
+    <footer class="main-footer">
+        <nav class="footer-nav container">
+            <ul class="footer-link">
+                <li>
+                    <a href="#">Google</a>
+                </li>
+                <li>
+                    <a href="#">About Google</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+            </ul>
+            <div class="sel-lang">
+                <select name="lang" id="">
+                    <option value="eng">English</option>
+                </select>
+            </div>
+        </nav>
+    </footer>
     
 </body>
 </html>
