@@ -1,0 +1,20 @@
+.main-header {
+    .navbar-top {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .google-title {
+            display: flex;
+            align-items: flex-end;
+            h3 {
+                font-size: 22px;
+                font-weight: 400;
+                color: $color-secondary;
+            }
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+}

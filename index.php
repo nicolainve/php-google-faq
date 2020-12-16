@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ – Privacy & Terms – Google</title>
     <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/app.css">
 
 </head>
@@ -43,6 +45,23 @@
                 ['In some cases, yes. When you click on a search result in Google Search, your web browser also may send the Internet address, or URL, of the search results page to the destination webpage as the Referrer URL. The URL of the search results page may sometimes contain the search query you entered. If you are using SSL Search (Google’s encrypted search functionality), under most circumstances, your search terms will not be sent as part of the URL in the Referrer URL. There are some exceptions to this behavior, such as if you are using some less popular browsers. More information on SSL Search can be found here. Search queries or information contained in the Referrer URL may be available via Google Analytics or an application programming interface (API). In addition, advertisers may receive information relating to the exact keywords that triggered an ad click.']
             ]
     ?>
+
+    <header class="main-header">
+        <nav class="navbar-top">
+            <div class="google-title">
+                <img src="./images/googlelogo.svg" alt="">
+                <h3>Privacy & Terms</h3>
+            </div>
+            <div class="user-link">
+                <button class="btn-primary">
+                    Sign in
+                </button>
+            </div>
+        </nav>
+        <nav class="navbar-bottom">
+
+        </nav>
+    </header>
 
     <!-- <?php foreach ($faq as $question => $answer) { ?>
         
